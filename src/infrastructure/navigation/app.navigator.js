@@ -38,8 +38,8 @@ const createScreenOptions = ({ route }) => {
 export const AppNavigator = () => (
   <NavigationContainer>
     <Tab.Navigator
-      //can control the screen options here. Important when looking into duplicate header screens
-      //   screenOptions={createScreenOptions, {headerShown: false}} gets rid of the icons
+      //   can control the screen options here. Important when looking into duplicate header screens
+      //   screenOptions={createScreenOptions, {headerShown: false}} gets rid of the icons, but removes the extra header
       screenOptions={createScreenOptions}
       tabBarOptions={{
         activeTintColor: "tomato",
